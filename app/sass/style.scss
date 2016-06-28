@@ -1,5 +1,4 @@
+@import "modules/globalvars";
+@import "modules/normalize";
 @import "modules/fonts";
-
-body {
-  font-family: "sfuidisplay-regular";
-}
+@import "modules/mixins";

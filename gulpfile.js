@@ -6,7 +6,7 @@ var browserSync = require('browser-sync');
 
 
 gulp.task('scss', function(){
-  return gulp.src('app/sass/**/*.scss')
+  return gulp.src('app/sass/style.scss')
    .pipe(scss(
      //{outputStyle: 'compressed'}
    ).on('error', scss.logError))
