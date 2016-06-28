@@ -1,6 +1,3 @@
 @font-face {
   font-family: "sfuidisplay-bold";
   src: url("/fonts/sfuidisplay-bold.eot?") format("eot"), url("/fonts/sfuidisplay-bold.woff2") format("woff2"), url("/fonts/sfuidisplay-bold.woff") format("woff"), url("/fonts/sfuidisplay-bold.ttf") format("truetype"), url("/fonts/sfuidisplay-bold.svg#sfuidisplay-bold") format("svg"); }
-
-body {
-  font-family: "sfuidisplay-bold"; }

@@ -1,10 +1,5 @@
+@import "modules/fonts";
+
 body {
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
-  background: red;
-
-  div {
-    color: #fff;
-    font-size: 100px;
-  }
-
+  font-family: "sfuidisplay-bold";
 }
