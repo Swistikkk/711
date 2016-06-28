@@ -9,6 +9,8 @@
   "author": "Oberemko Viktor",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp-sass": "^2.3.2",
     "gulps": "^0.1.4"
   }
 }

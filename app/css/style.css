@@ -1,10 +1,6 @@
 body {
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
-  background: red;
-
-  div {
+  background: red; }
+  body div {
     color: #fff;
-    font-size: 100px;
-  }
-
-}
+    font-size: 100px; }
