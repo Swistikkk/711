@@ -2,5 +2,41 @@
   font-family: "sfuidisplay-bold";
   src: url("/fonts/sfuidisplay-bold.eot?") format("eot"), url("/fonts/sfuidisplay-bold.woff2") format("woff2"), url("/fonts/sfuidisplay-bold.woff") format("woff"), url("/fonts/sfuidisplay-bold.ttf") format("truetype"), url("/fonts/sfuidisplay-bold.svg#sfuidisplay-bold") format("svg"); }
 
+@font-face {
+  font-family: "roadradio-thin";
+  src: url("/fonts/roadradio-thin.eot?") format("eot"), url("/fonts/roadradio-thin.woff2") format("woff2"), url("/fonts/roadradio-thin.woff") format("woff"), url("/fonts/roadradio-thin.ttf") format("truetype"), url("/fonts/roadradio-thin.svg#roadradio-thin") format("svg"); }
+
+@font-face {
+  font-family: "sfuidisplay-black";
+  src: url("/fonts/sfuidisplay-black.eot?") format("eot"), url("/fonts/sfuidisplay-black.woff2") format("woff2"), url("/fonts/sfuidisplay-black.woff") format("woff"), url("/fonts/sfuidisplay-black.ttf") format("truetype"), url("/fonts/sfuidisplay-black.svg#sfuidisplay-black") format("svg"); }
+
+@font-face {
+  font-family: "sfuidisplay-heavy";
+  src: url("/fonts/sfuidisplay-heavy.eot?") format("eot"), url("/fonts/sfuidisplay-heavy.woff2") format("woff2"), url("/fonts/sfuidisplay-heavy.woff") format("woff"), url("/fonts/sfuidisplay-heavy.ttf") format("truetype"), url("/fonts/sfuidisplay-heavy.svg#sfuidisplay-heavy") format("svg"); }
+
+@font-face {
+  font-family: "sfuidisplay-light";
+  src: url("/fonts/sfuidisplay-light.eot?") format("eot"), url("/fonts/sfuidisplay-light.woff2") format("woff2"), url("/fonts/sfuidisplay-light.woff") format("woff"), url("/fonts/sfuidisplay-light.ttf") format("truetype"), url("/fonts/sfuidisplay-light.svg#sfuidisplay-light") format("svg"); }
+
+@font-face {
+  font-family: "sfuidisplay-medium";
+  src: url("/fonts/sfuidisplay-medium.eot?") format("eot"), url("/fonts/sfuidisplay-medium.woff2") format("woff2"), url("/fonts/sfuidisplay-medium.woff") format("woff"), url("/fonts/sfuidisplay-medium.ttf") format("truetype"), url("/fonts/sfuidisplay-medium.svg#sfuidisplay-medium") format("svg"); }
+
+@font-face {
+  font-family: "sfuidisplay-regular";
+  src: url("/fonts/sfuidisplay-regular.eot?") format("eot"), url("/fonts/sfuidisplay-regular.woff2") format("woff2"), url("/fonts/sfuidisplay-regular.woff") format("woff"), url("/fonts/sfuidisplay-regular.ttf") format("truetype"), url("/fonts/sfuidisplay-regular.svg#sfuidisplay-regular") format("svg"); }
+
+@font-face {
+  font-family: "sfuidisplay-semibold";
+  src: url("/fonts/sfuidisplay-semibold.eot?") format("eot"), url("/fonts/sfuidisplay-semibold.woff2") format("woff2"), url("/fonts/sfuidisplay-semibold.woff") format("woff"), url("/fonts/sfuidisplay-semibold.ttf") format("truetype"), url("/fonts/sfuidisplay-semibold.svg#sfuidisplay-semibold") format("svg"); }
+
+@font-face {
+  font-family: "sfuidisplay-thin";
+  src: url("/fonts/sfuidisplay-thin.eot?") format("eot"), url("/fonts/sfuidisplay-thin.woff2") format("woff2"), url("/fonts/sfuidisplay-thin.woff") format("woff"), url("/fonts/sfuidisplay-thin.ttf") format("truetype"), url("/fonts/sfuidisplay-thin.svg#sfuidisplay-thin") format("svg"); }
+
+@font-face {
+  font-family: "sfuidisplay-ultralight";
+  src: url("/fonts/sfuidisplay-ultralight.eot?") format("eot"), url("/fonts/sfuidisplay-ultralight.woff2") format("woff2"), url("/fonts/sfuidisplay-ultralight.woff") format("woff"), url("/fonts/sfuidisplay-ultralight.ttf") format("truetype"), url("/fonts/sfuidisplay-ultralight.svg#sfuidisplay-ultralight") format("svg"); }
+
 body {
-  font-family: "sfuidisplay-bold"; }
+  font-family: "sfuidisplay-regular"; }
