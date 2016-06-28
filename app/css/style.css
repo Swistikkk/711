@@ -369,3 +369,59 @@ textarea {
   height: 0;
   clear: both;
   visibility: hidden; }
+
+.main-header {
+  background: #4d81ef; }
+  .main-header-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 60px;
+    padding: 0 60px; }
+    .main-header-wrapper {
+      *zoom: 1; }
+    .main-header-wrapper:before, .main-header-wrapper:after {
+      content: "";
+      display: table; }
+    .main-header-wrapper:after {
+      clear: both; }
+  .main-header--logo {
+    float: left; }
+    .main-header--logoIcon {
+      display: inline-block;
+      height: 46px;
+      float: left;
+      line-height: 60px;
+      padding-top: 7px; }
+  .main-header--icons {
+    float: right;
+    margin-right: 101px; }
+    .main-header--icons .top-navigation {
+      float: right; }
+      .main-header--icons .top-navigation .item {
+        display: inline-block; }
+        .main-header--icons .top-navigation .item-link {
+          color: #fff;
+          text-decoration: none;
+          font-family: 'medium';
+          font-size: 0.875em; }
+          .main-header--icons .top-navigation .item-link img {
+            display: inline-block;
+            height: 19px;
+            width: 19px; }
+            .main-header--icons .top-navigation .item-link img:first-child {
+              margin-right: 50px; }
+        .main-header--icons .top-navigation .item-text {
+          text-transform: uppercase; }
+  .main-header--description {
+    margin: 0;
+    display: inline-block;
+    color: #fff;
+    font-family: "roadradio-thin";
+    max-width: 170px;
+    font-size: 0.875em;
+    line-height: 1.35em;
+    padding-top: 12px;
+    margin-left: 16px; }
+
+body {
+  font-size: 16px; }

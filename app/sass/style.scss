@@ -2,3 +2,8 @@
 @import "modules/normalize";
 @import "modules/fonts";
 @import "modules/mixins";
+@import "modules/header";
+
+body {
+  font-size: 16px;
+}

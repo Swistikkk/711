@@ -1,0 +1,73 @@
+// Десктопная версия мобильного меню
+
+.main-header {
+  background: $blue;
+
+  &-wrapper {
+    max-width: $desktop;
+    margin: 0 auto;
+    height: 60px;
+    padding: 0 60px;
+
+    @include clearfix-micro();
+  }
+
+  &--logo {
+    float: left;
+
+    &Icon {
+      display: inline-block;
+      height: 46px;
+      float: left;
+      line-height: 60px;
+      padding-top: 7px
+    }
+
+  }
+
+  &--icons {
+    float: right;
+    margin-right: 101px;
+
+    .top-navigation {
+      float: right;
+
+      .item {
+        display: inline-block;
+
+        &-link {
+          color: #fff;
+          text-decoration: none;
+          font-family: 'medium';
+          font-size: 0.875em;
+
+          img {
+            display: inline-block;
+            height: 19px;
+            width: 19px;
+            &:first-child {
+              margin-right: 50px;
+            }
+          }
+        }
+        &-text {
+          text-transform: uppercase;
+        }
+      }
+    }
+
+  }
+
+  &--description {
+    margin: 0;
+    display: inline-block;
+    color: #fff;
+    font-family: "roadradio-thin";
+    max-width: 170px;
+    font-size: 0.875em;
+    line-height: 1.35em;
+    padding-top: 12px;
+    margin-left: 16px;
+  }
+
+}
