@@ -513,5 +513,14 @@ textarea {
         background: #eaedef;
         color: #4d81ef; }
 
+.global-wrapper {
+  background: #eaedef;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+.content {
+  flex: 1; }
+
 body {
   font-size: 16px; }
