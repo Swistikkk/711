@@ -585,7 +585,9 @@ textarea {
         color: #b2b2b2;
         text-decoration: none;
         font-family: "sfuidisplay-regular";
-        font-size: 0.85em; }
+        font-size: 0.85em;
+        position: relative;
+        z-index: 5; }
         .main-footer .menu-footer .item-link-ref:hover {
           color: #4d81ef; }
 
