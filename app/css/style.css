@@ -518,7 +518,7 @@ textarea {
   .main-footer--wrapper {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 60px 35px 50px; }
+    padding: 60px 35px 0px; }
   .main-footer .footer-block {
     display: inline-block;
     width: 24%;
@@ -602,6 +602,16 @@ textarea {
 
 a {
   text-decoration: none; }
+
+.email-sending {
+  background-color: #4d81ef; }
+  .email-sending-wrapper {
+    max-width: 1280px;
+    margin: 0 auto; }
+  .email-sending-title {
+    display: inline-block; }
+  .email-sending-form {
+    display: inline-block; }
 
 .form-wrapper {
   padding: 45px 40px;

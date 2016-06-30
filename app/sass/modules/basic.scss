@@ -12,3 +12,23 @@
 a {
   text-decoration: none;
 }
+
+
+// Блок с отправкой и подпиской по email
+
+.email-sending {
+  background-color: $blue;
+
+  &-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  &-title {
+    display: inline-block;
+  }
+
+  &-form {
+    display: inline-block;
+  }
+}
