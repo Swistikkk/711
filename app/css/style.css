@@ -614,7 +614,16 @@ a {
   font-size: 1.625em;
   font-weight: normal;
   color: #424955;
-  margin: 0 0 40px 0; }
+  margin: 0 0 40px 0;
+  text-align: left; }
+  .form-title--margin {
+    margin-bottom: 15px; }
+
+.form-text {
+  font-size: 0.85em;
+  font-family: "sfuidisplay-regular";
+  margin-bottom: 30px;
+  text-align: left; }
 
 .basic-form {
   *zoom: 1; }
@@ -637,17 +646,20 @@ a {
   border: 1px solid #e7e7e7;
   color: #424955;
   font-size: 0.9em;
-  font-family: 'regular'; }
+  font-family: "sfuidisplay-regular"; }
 
 .basic-form-button {
   float: left; }
+  .basic-form-button--width {
+    width: 100%; }
 
 .basic-form-link {
   color: #4d81ef;
   font-size: 0.85em;
   float: right;
   margin-top: 13px;
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-family: "sfuidisplay-regular"; }
   .basic-form-link:hover {
     text-decoration: underline; }
 
@@ -660,7 +672,16 @@ a {
   .if-not .description {
     display: inline-block;
     font-size: 0.85em;
-    margin-right: 35px; }
+    margin-right: 35px;
+    font-family: "sfuidisplay-regular"; }
+
+.check-in {
+  margin: 120px auto 80px;
+  text-align: center; }
+
+.backpassword {
+  margin: 120px auto 80px;
+  text-align: center; }
 
 .basic-green {
   border: 1px solid #42d79e;
@@ -673,7 +694,8 @@ a {
   .basic-green span {
     color: #fff;
     font-size: 0.85em;
-    text-align: center; }
+    text-align: center;
+    font-family: "sfuidisplay-regular"; }
   .basic-green:hover {
     background: #fff;
     border: 1px solid #42d79e;
@@ -697,7 +719,8 @@ a {
   .basic-transparent-green span {
     color: #424955;
     font-size: 0.85em;
-    text-align: center; }
+    text-align: center;
+    font-family: "sfuidisplay-regular"; }
   .basic-transparent-green:hover {
     background: #42d79e;
     border: 1px solid #eaedef;
@@ -709,6 +732,75 @@ a {
     background: #28be85; }
     .basic-transparent-green:active span {
       color: #fff; }
+
+.social-networks {
+  margin-top: 35px;
+  padding-top: 30px;
+  border-top: 1px solid #e6e6e6; }
+  .social-networks {
+    *zoom: 1; }
+  .social-networks:before, .social-networks:after {
+    content: "";
+    display: table; }
+  .social-networks:after {
+    clear: both; }
+  .social-networks .item {
+    width: 65px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    line-height: 40px;
+    margin-right: 10px; }
+    .social-networks .item:last-child {
+      margin-right: 0; }
+    .social-networks .item .twitter {
+      width: 18px;
+      height: 14px;
+      background: transparent; }
+      .social-networks .item .twitter .fill {
+        fill: #36BFF2; }
+    .social-networks .item .facebook {
+      width: 10px;
+      height: 18px; }
+      .social-networks .item .facebook .fill {
+        fill: #3a5899; }
+    .social-networks .item .vk {
+      width: 22px;
+      height: 12px; }
+      .social-networks .item .vk .fill {
+        fill: #46719f; }
+    .social-networks .item .google {
+      width: 25px;
+      height: 15px; }
+      .social-networks .item .google .fill {
+        fill: #DB4E41; }
+  .social-networks .twitter-link {
+    border: 1px solid #36bff2; }
+    .social-networks .twitter-link:hover {
+      background: #36bff2; }
+      .social-networks .twitter-link:hover .fill {
+        fill: #fff; }
+  .social-networks .facebook-link {
+    border: 1px solid #3a5899; }
+    .social-networks .facebook-link:hover {
+      background: #3a5899; }
+      .social-networks .facebook-link:hover .fill {
+        fill: #fff; }
+  .social-networks .vk-link {
+    border: 1px solid #46719f; }
+    .social-networks .vk-link:hover {
+      background: #46719f; }
+      .social-networks .vk-link:hover .fill {
+        fill: #fff; }
+  .social-networks .google-link {
+    border: 1px solid #db4e41; }
+    .social-networks .google-link:hover {
+      background: #db4e41; }
+      .social-networks .google-link:hover .fill {
+        fill: #fff; }
+  .social-networks .twitter-link, .social-networks .facebook-link, .social-networks .vk-link, .social-networks .google-link {
+    border-radius: 35px; }
 
 body {
   font-size: 16px;

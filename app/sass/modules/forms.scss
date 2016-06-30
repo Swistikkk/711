@@ -11,6 +11,18 @@
   font-weight: normal;
   color: $dark-blue;
   margin: 0 0 40px 0;
+  text-align: left;
+
+  &--margin {
+    margin-bottom: 15px;
+  }
+}
+
+.form-text {
+  font-size: 0.85em;
+  font-family: $regular;
+  margin-bottom: 30px;
+  text-align: left;
 }
 
 .basic-form {
@@ -30,11 +42,15 @@
     @include placeholder()
       color: $dark-blue;
       font-size: 0.9em;
-      font-family: 'regular';
+      font-family: $regular;
   }
 
   &-button {
     float: left;
+
+    &--width {
+      width: 100%;
+    }
   }
 
   &-link {
@@ -43,6 +59,7 @@
     float: right;
     margin-top: 13px;
     margin-right: 10px;
+    font-family: $regular;
 
     &:hover {
       text-decoration: underline;
@@ -64,7 +81,20 @@
     display: inline-block;
     font-size: 0.85em;
     margin-right: 35px;
+    font-family: $regular;
   }
+}
 
+// Регистрация
 
+.check-in {
+  margin: 120px auto 80px;
+  text-align: center;
+}
+
+// Восстановление пароля
+
+.backpassword {
+  margin: 120px auto 80px;
+  text-align: center;
 }
