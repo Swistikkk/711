@@ -607,7 +607,8 @@ a {
   padding: 45px 40px;
   background: #fff;
   max-width: 385px;
-  margin: auto; }
+  margin: auto;
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.3); }
 
 .form-title {
   font-family: "sfuidisplay-semibold";
