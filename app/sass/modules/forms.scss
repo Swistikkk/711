@@ -1,0 +1,70 @@
+.form-wrapper {
+  padding: 45px 40px;
+  background: #fff;
+  max-width: 385px;
+  margin: auto;
+}
+
+.form-title {
+  font-family: $semibold;
+  font-size: 1.625em;
+  font-weight: normal;
+  color: $dark-blue;
+  margin: 0 0 40px 0;
+}
+
+.basic-form {
+  @include clearfix-micro();
+
+
+  &-input {
+    background: #f2f5f7;
+    max-width: 300px;
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid $light-gray;
+
+    @include placeholder()
+      color: $dark-blue;
+      font-size: 0.9em;
+      font-family: 'regular';
+  }
+
+  &-button {
+    float: left;
+  }
+
+  &-link {
+    color: $blue;
+    font-size: 0.85em;
+    float: right;
+    margin-top: 13px;
+    margin-right: 10px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Авторизация
+
+.authorization {
+  margin: 120px auto 80px;
+  text-align: center;
+}
+
+.if-not {
+  margin-top: 40px;
+
+  .description {
+    display: inline-block;
+    font-size: 0.85em;
+    margin-right: 35px;
+  }
+
+
+}

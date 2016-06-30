@@ -600,5 +600,119 @@ textarea {
 .content {
   flex: 1; }
 
+a {
+  text-decoration: none; }
+
+.form-wrapper {
+  padding: 45px 40px;
+  background: #fff;
+  max-width: 385px;
+  margin: auto; }
+
+.form-title {
+  font-family: "sfuidisplay-semibold";
+  font-size: 1.625em;
+  font-weight: normal;
+  color: #424955;
+  margin: 0 0 40px 0; }
+
+.basic-form {
+  *zoom: 1; }
+
+.basic-form:before, .basic-form:after {
+  content: "";
+  display: table; }
+
+.basic-form:after {
+  clear: both; }
+
+.basic-form-input {
+  background: #f2f5f7;
+  max-width: 300px;
+  display: block;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #e7e7e7;
+  color: #424955;
+  font-size: 0.9em;
+  font-family: 'regular'; }
+
+.basic-form-button {
+  float: left; }
+
+.basic-form-link {
+  color: #4d81ef;
+  font-size: 0.85em;
+  float: right;
+  margin-top: 13px;
+  margin-right: 10px; }
+  .basic-form-link:hover {
+    text-decoration: underline; }
+
+.authorization {
+  margin: 120px auto 80px;
+  text-align: center; }
+
+.if-not {
+  margin-top: 40px; }
+  .if-not .description {
+    display: inline-block;
+    font-size: 0.85em;
+    margin-right: 35px; }
+
+.basic-green {
+  border: 1px solid #42d79e;
+  background: #42d79e;
+  display: inline-block;
+  border-radius: 35px;
+  padding: 12px 0;
+  min-width: 162px;
+  outline: none; }
+  .basic-green span {
+    color: #fff;
+    font-size: 0.85em;
+    text-align: center; }
+  .basic-green:hover {
+    background: #fff;
+    border: 1px solid #42d79e;
+    cursor: pointer; }
+    .basic-green:hover span {
+      color: #42d79e; }
+  .basic-green:active {
+    border: 1px solid #28be85;
+    background: #28be85; }
+    .basic-green:active span {
+      color: #fff; }
+
+.basic-transparent-green {
+  border: 1px solid #42d79e;
+  background: #eaedef;
+  display: inline-block;
+  border-radius: 35px;
+  padding: 12px 0;
+  min-width: 162px;
+  outline: none; }
+  .basic-transparent-green span {
+    color: #424955;
+    font-size: 0.85em;
+    text-align: center; }
+  .basic-transparent-green:hover {
+    background: #42d79e;
+    border: 1px solid #eaedef;
+    cursor: pointer; }
+    .basic-transparent-green:hover span {
+      color: #eaedef; }
+  .basic-transparent-green:active {
+    border: 1px solid #28be85;
+    background: #28be85; }
+    .basic-transparent-green:active span {
+      color: #fff; }
+
 body {
-  font-size: 16px; }
+  font-size: 16px;
+  box-sizing: border-box; }
+
+div, input, form, p, h1, h2, h3, h4, h5, h6, header, footer {
+  box-sizing: border-box; }
