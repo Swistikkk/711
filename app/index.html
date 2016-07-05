@@ -93,12 +93,12 @@
 
     <div class="content">
 
-
+  
 
     </div>
 
 
-    <div class="email-sending">
+    <!-- <div class="email-sending">
       <div class="email-sending-wrapper">
         <p class="email-sending-title">Новые статьи на почту:</p>
         <form class="email-sending-form">
@@ -106,7 +106,7 @@
           <button class="basic-green">Подписаться</button>
         </form>
       </div>
-    </div><!-- /email-sending-->
+    </div> /email-sending -->
 
 
   <!-- Footer -->
@@ -322,6 +322,15 @@
     </footer><!-- /main-footer-->
 
   </div><!-- /global-wrapper-->
+
+  <script>
+
+    var input = document.querySelector('.email-sending-input');
+    input.addEventListener('focusin', function(){
+      //window.location = "https://www.yandex.ru/";
+    });
+
+  </script>
 
 </body>
 </html>
